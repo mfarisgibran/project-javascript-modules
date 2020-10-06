@@ -1,4 +1,6 @@
-import { sayHello, sayGoodBye } from "./hello.js";
+import * as hello from "./hello.js";
+import sayUserEmail from "./user.js";
 
-sayHello("Gibran");
-sayGoodBye("Haidar");
+hello.sayHello("Gibran");
+hello.sayGoodBye("Haidar");
+sayUserEmail("putri@gmail.com");
