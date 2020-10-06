@@ -1,3 +1,4 @@
-import { sayHello } from "./hello.js";
+import { sayHello, sayGoodBye } from "./hello.js";
 
 sayHello("Gibran");
+sayGoodBye("Haidar");
